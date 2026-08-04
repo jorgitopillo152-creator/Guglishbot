@@ -1,0 +1,6 @@
+{
+  "name": "Guglish Bot",
+  "description": "English sentence grammar corrector, CEFR level detector, and 3 alternative phrasings generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
