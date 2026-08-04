@@ -105,7 +105,7 @@ export default function App() {
               <div className="flex-1">
                 <p className="font-semibold">{error}</p>
                 <p className="text-[11px] text-rose-600 mt-0.5">
-                  Make sure you have configured your GEMINI_API_KEY in the Secrets panel.
+                  const apiKey = import.meta.env.VITE_GEMINI_API_KEY || process.env.GEMINI_API_KEY || "";
                 </p>
               </div>
             </div>
